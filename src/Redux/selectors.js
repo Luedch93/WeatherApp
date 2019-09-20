@@ -1,0 +1,1 @@
+export const getWeather = store => store.searchReducer.weatherList;

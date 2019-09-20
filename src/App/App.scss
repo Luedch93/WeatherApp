@@ -1,0 +1,11 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        border-bottom: 5px tomato solid;
+        padding-bottom: 5px;
+    }
+}

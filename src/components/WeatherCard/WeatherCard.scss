@@ -1,0 +1,44 @@
+.WeatherCard {
+    margin: 5px;
+    background-color: grey;
+    border-radius: 15px;
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.6s;
+    width: 200px;
+    h3 {
+        text-align: center;
+    }
+    .info {
+        display: flex;
+        .temperature {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            h5 {
+                margin: 0 5px;
+            }
+            .max {
+                background-color: rgb(251, 76, 45)
+            }
+            .min {
+                background-color: black
+            }
+        }
+    }
+
+
+}
+
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
