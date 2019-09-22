@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.scss';
 
-import SearchInput from "../components/SearchInput/SearchInput";
-import WeatherList from "../components/WeatherList/WeatherList";
+import SearchInput from '../components/SearchInput/SearchInput';
+import WeatherList from '../components/WeatherList/WeatherList';
 
 function App() {
   return (
